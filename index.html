@@ -20,7 +20,7 @@
       width: 200px;
       background: #FFF;
       border-radius: 100%;
-      border: 4px solid #000;
+      border: 6px solid #000;
       position: relative;
       display: inline-block;
       margin-left: -5px;
@@ -94,6 +94,28 @@
       width: 100%;
     }
 
+    .nariz {
+      width: 70px;
+      transform: rotate(10deg);
+      height: 97px;
+      border-radius: 50%;
+      background: #F9ED39;
+      border: 6px solid #000;
+      position: absolute;
+      top: 110px;
+      left: 164px;
+    }
+    .nariz-detalhe {
+      width: 66px;
+      height: 100px;
+      border-radius: 50%;
+      background: #F9ED39;
+      position: absolute;
+      top: 17px;
+      transform: rotate(4deg) translateY(-7px);
+      left: 1px;
+    }
+
   </style>
 
 </head>
@@ -108,7 +130,6 @@
       <div class="olho1"></div>
       <div class="olho2"></div>
     </div>
-
     <div class="olho" id="direito">
       <div class="sobrancelha" id="primeira-sobrancelha"></div>
       <div class="sobrancelha" id="segunda-sobrancelha"></div>
@@ -116,6 +137,10 @@
       <div class="olho1"></div>
       <div class="olho2"></div>
     </div>
+    <div class="nariz">
+      <div class="nariz-detalhe"></div>
+    </div>
+
 
   </div>
 
@@ -138,7 +163,7 @@
     <div class="detail" style="left: 95%; top: 34%;   transform:  rotate(100deg);"></div>
   </div>
   <div class="bg-details" style="margin-top: 100px;">
-    <div class="detail" style="left: 1%;  top: 13%;    transform:  rotate(10deg);"></div>
+    <div class="detail" style="left: 1%;  top: 13%;   transform:  rotate(10deg);"></div>
     <div class="detail" style="left: 53%; top: 23%;   transform:  rotate(20deg);"></div>
     <div class="detail" style="left: 11%; top: 17%;   transform:  rotate(30deg);"></div>
     <div class="detail" style="left: 74%; top: 32%;   transform:  rotate(60deg);"></div>
